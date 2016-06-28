@@ -1,0 +1,130 @@
+﻿/* ==========================================================================
+	Global Styles
+==========================================================================*/
+* {box-sizing: border-box;}
+body {
+	font-family: 'Philosopher', sans-serif;
+	}
+.clearfix:after {
+	content:'';
+	display: block;
+	clear: both;
+	}
+	
+/* ==========================================================================
+ Typography
+========================================================================== */
+h1{
+	color: black;
+	font-size: 35px;
+}
+/* ==========================================================================
+ Top+Navigation
+========================================================================== */
+.container { 
+	width: 100%;
+	background: RGB(249, 249, 249 );
+	}
+.content {
+	width: 79%;/*1067px*/
+	margin: 0 auto;
+	padding: 50px 45px;
+	background: white; 
+	}
+.navigation_box {
+	margin-top: 40px;
+	text-align: left;
+	background: RGB(85, 85, 85);
+	}
+.navigation_item { 
+	display: inline-block;
+	}
+.navigation_item a {
+	display: inline-block;
+	height: 40px;
+	padding:10px 35px;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	}
+.navigation_item a:hover {
+	background: black;
+	}
+/* ==========================================================================
+left_bar
+========================================================================== */
+.left_bar {
+	width: 25%;
+	margin-top: 40px;
+	float: left;
+	border: 1px solid RGB(200, 200, 200 );
+	}
+.left_bar li {
+	border-bottom: 1px solid RGB(200, 200, 200 );
+	}
+.left_bar a {
+	display: block;
+	height: 40px;
+	padding: 10px 25px;
+	text-align: left;
+	
+	color: black;
+	font-size: 18px;
+	text-decoration: none;
+	}
+.left_bar li:last-child {
+	border-bottom: none;
+	}
+.left_bar a:hover {
+	background: rgb(249, 249, 249);
+}
+/* ==========================================================================
+Article
+========================================================================== */
+.central_bar {
+	width: 70%;
+	margin: 40px 0;
+	margin-left: 40px;
+	float: left;
+	}
+.img_box {
+	margin-bottom: 40px;
+	border: 1px solid RGB(200, 200, 200 );
+	}
+.img_box img {
+	width: 100%;
+	height: auto;
+	}
+.text_box {
+	padding: 0 20px;
+	line-height: 25px;
+	}
+/* ==========================================================================
+Bottom_navigation
+========================================================================== */
+.bottom_navigation_box {
+	margin-top: 20px;
+	text-align: left;
+	background: RGB(225, 225, 225);
+	}
+.bottom_navigation_item { 
+	display: inline-block;
+	}
+.bottom_navigation_item a {
+	display: inline-block;
+	height: 40px;
+	padding: 10px 40px;
+	text-align: center;
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+	}
+.bottom_navigation_item a:hover {
+	text-decoration: underline;
+	}
+.last {
+	padding-left: 22%;
+	text-align: right;
+	font-size: 12px;
+}
